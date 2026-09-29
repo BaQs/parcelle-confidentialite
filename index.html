@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — Parcelle</title>
+<meta name="description" content="Parcelle ne collecte aucune donnée personnelle : ni compte, ni serveur, ni publicité, ni mesure d'audience.">
+<style>
+:root {
+  --page:#F4F6F2; --surface:#FFFFFF; --texte:#17201B; --texte2:#57655C; --filet:#E2E8E1;
+  --accent:#8F753D; --tete:#243532; --tete-texte:#FFFFFF; --creme:#E8DCC0; --creme2:rgba(232,220,192,.74);
+  --lien:#6F5A2E;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --page:#15201A; --surface:#1E2A23; --texte:#F1F4F0; --texte2:#A0AFA5; --filet:#2A362F;
+    --accent:#D0B785; --tete:#0E1613; --tete-texte:#F1F4F0; --creme:#D0B785; --creme2:rgba(208,183,133,.75);
+    --lien:#D0B785;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --page:#15201A; --surface:#1E2A23; --texte:#F1F4F0; --texte2:#A0AFA5; --filet:#2A362F;
+  --accent:#D0B785; --tete:#0E1613; --tete-texte:#F1F4F0; --creme:#D0B785; --creme2:rgba(208,183,133,.75);
+  --lien:#D0B785;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--texte);
+  font: 400 1.0625rem/1.6 -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; }
+.tete { background: var(--tete); color: var(--tete-texte);
+  padding-block: clamp(2rem, 7vw, 3.25rem) clamp(1.5rem, 5vw, 2.25rem); padding-inline: 1.25rem; }
+.tete > * { max-width: 40rem; margin-inline: auto; }
+.marque { margin-block: 0 .5rem; font-size: .75rem; font-weight: 700; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--creme2); }
+h1 { margin-block: 0; font-size: clamp(1.75rem, 6vw, 2.4rem); line-height: 1.1; font-weight: 800;
+  letter-spacing: -.03em; text-wrap: balance; }
+.date { margin-block: .75rem 0; color: var(--creme); font-size: .9375rem; }
+main { max-width: 40rem; margin-inline: auto; padding-inline: 1.25rem; padding-block: 1.5rem 2.5rem;
+  display: flex; flex-direction: column; gap: 1.75rem; }
+.bref { margin: 0; background: var(--surface); border: 1px solid var(--filet); border-radius: 14px;
+  padding: 1rem 1.15rem; font-size: 1.0625rem; }
+section { display: flex; flex-direction: column; gap: .6rem; }
+h2 { margin: 0; font-size: 1.125rem; line-height: 1.3; font-weight: 700; letter-spacing: -.01em;
+  text-wrap: balance; }
+p { margin: 0; }
+ul { margin: 0; padding-left: 1.2rem; display: flex; flex-direction: column; gap: .35rem; }
+li::marker { color: var(--accent); }
+a { color: var(--lien); text-underline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+.services { margin: .25rem 0; border-top: 1px solid var(--filet); }
+.services div { display: grid; grid-template-columns: minmax(0, 15rem) minmax(0, 1fr); gap: .15rem 1rem;
+  padding-block: .55rem; border-bottom: 1px solid var(--filet); }
+.services dt { font-weight: 600; }
+.services dd { margin: 0; color: var(--texte2); }
+@media (max-width: 34rem) { .services div { grid-template-columns: minmax(0, 1fr); } }
+footer { max-width: 40rem; margin-inline: auto; padding-inline: 1.25rem; padding-block: 0 2.5rem;
+  color: var(--texte2); font-size: .875rem; }
+footer p { border-top: 1px solid var(--filet); padding-top: 1rem; }
+</style>
+</head>
+<body>
+<header class="tete">
+  <p class="marque">Parcelle</p>
+  <h1>Politique de confidentialité</h1>
+  <p class="date">Dernière mise à jour : 29 septembre 2026</p>
+</header>
+<main>
+  <p class="bref"><strong>Parcelle ne collecte aucune donnée personnelle.</strong> Pas de compte, pas de serveur, pas de publicité, pas de mesure d'audience. Ce que vous saisissez sert seulement à interroger les services, publics pour la plupart, qui détiennent les réponses ; ce que vous gardez reste dans votre iPhone.</p>
+  <section>
+    <h2>Qui édite Parcelle</h2>
+    <p>Parcelle est éditée par Pierre Ourdouille, personne physique. Cette politique s'applique à l'application Parcelle pour iPhone, y compris à ses versions de test distribuées par TestFlight.</p>
+  </section>
+  <section>
+    <h2>Ce que Parcelle ne fait pas</h2>
+    <ul><li>Aucun compte, aucun identifiant.</li><li>Aucun serveur Parcelle : rien de ce que vous faites dans l'app ne nous est envoyé, et nous ne conservons rien.</li><li>Aucune publicité, aucun pisteur, aucune mesure d'audience, aucun outil d'analyse.</li><li>Aucune donnée vendue ni partagée : nous n'en détenons pas.</li></ul>
+  </section>
+  <section>
+    <h2>Les adresses que vous recherchez</h2>
+    <p>Pour construire la fiche d'un lieu, Parcelle envoie son adresse ou ses coordonnées, directement depuis votre iPhone, aux services qui détiennent les données demandées, et seulement pour répondre à votre demande. Ils sont cités plus bas. Parcelle n'y joint aucun identifiant et n'en garde aucune trace.</p>
+    <p>Comme pour toute connexion à Internet, chaque service voit l'adresse IP de votre connexion ; chacun applique sa propre politique de confidentialité.</p>
+    <p>Certains fichiers publics sont téléchargés en entier, sans que rien du lieu étudié ne soit envoyé : c'est le cas de la liste de tif.hair.</p>
+  </section>
+  <section>
+    <h2>Votre position</h2>
+    <p>Parcelle n'utilise votre position que si vous l'autorisez, et seulement quand vous le demandez : pour retrouver l'adresse où vous vous trouvez. Elle ne la suit jamais en arrière-plan. Vos coordonnées ne servent qu'à interroger les services qui répondent ; Parcelle ne les enregistre pas.</p>
+  </section>
+  <section>
+    <h2>Les annonces que vous lisez avec Parcelle</h2>
+    <p>Quand vous partagez une annonce vers Parcelle, ou que vous en photographiez ou importez une capture, la lecture se fait dans l'iPhone, avec la reconnaissance de texte du système. L'image n'est ni transmise ni conservée : elle est effacée dès qu'elle a été lue.</p>
+    <p>Les éléments utiles à la recherche du bien sont ensuite envoyés, comme pour une recherche ordinaire, aux services cités plus bas.</p>
+  </section>
+  <section>
+    <h2>Ce qui reste dans votre iPhone</h2>
+    <p>Les lieux que vous suivez, vos notes, vos saisies et vos réglages sont enregistrés dans l'iPhone, et nulle part ailleurs. Les lieux suivis peuvent apparaître dans la recherche de l'iPhone ; cet index reste lui aussi sur l'appareil.</p>
+  </section>
+  <section>
+    <h2>La veille et les notifications</h2>
+    <p>Pour les lieux que vous avez choisi de suivre, Parcelle vérifie de temps en temps, y compris en arrière-plan, s'il y a du nouveau autour, en interrogeant les mêmes services avec l'adresse de ces lieux. Les notifications sont produites dans l'iPhone, sans serveur de notification. Vous pouvez les couper dans les réglages de l'iPhone, ou cesser de suivre un lieu.</p>
+  </section>
+  <section>
+    <h2>Les services interrogés</h2>
+    <p>Les principaux, et ce qu'ils fournissent à la fiche :</p>
+    <dl class="services">
+      <div><dt>Base Adresse Nationale</dt><dd>l'adresse et ses coordonnées</dd></div>
+      <div><dt>IGN</dt><dd>le cadastre, les bâtiments, le relief mesuré au laser, les cartes et les photos aériennes</dd></div>
+      <div><dt>DGFiP : demandes de valeurs foncières (DVF)</dt><dd>les ventes immobilières publiées</dd></div>
+      <div><dt>ADEME</dt><dd>les diagnostics de performance énergétique</dd></div>
+      <div><dt>Géorisques et BRGM</dt><dd>les risques naturels et industriels, le sol et le sous-sol</dd></div>
+      <div><dt>Hub'Eau</dt><dd>l'eau du robinet et les nappes</dd></div>
+      <div><dt>Sitadel</dt><dd>les permis de construire autour</dd></div>
+      <div><dt>Éducation nationale</dt><dd>les écoles et les collèges</dd></div>
+      <div><dt>ARCEP et ANFR</dt><dd>la fibre, le réseau mobile et les antennes</dd></div>
+      <div><dt>PVGIS (Commission européenne)</dt><dd>la production solaire possible</dd></div>
+      <div><dt>Open-Meteo</dt><dd>le climat et la qualité de l'air</dd></div>
+      <div><dt>Panoramax</dt><dd>les photos de rue</dd></div>
+      <div><dt>OpenStreetMap</dt><dd>les commerces et services du quartier</dd></div>
+      <div><dt>Apple Plans</dt><dd>la vue de la rue Look Around</dd></div>
+      <div><dt>tif.hair</dt><dd>la liste des salons de coiffure à jeu de mots, téléchargée en entier</dd></div>
+    </dl>
+    <p>Et aussi : le Référentiel national des bâtiments, la Base de données nationale des bâtiments, le découpage administratif, l'annuaire des entreprises, les données ouvertes d'Enedis et de GRDF, France Chaleur Urbaine, Vigicrues et Géo-IDE.</p>
+    <p>Certains liens ouvrent un site dans votre navigateur, une annonce ou une fiche officielle par exemple : c'est alors la politique de ce site qui s'applique.</p>
+  </section>
+  <section>
+    <h2>Pendant le test, avec TestFlight</h2>
+    <p>Si vous testez Parcelle avec TestFlight, Apple recueille les rapports de plantage et les retours que vous choisissez d'envoyer (texte, capture d'écran), selon sa propre politique de confidentialité et les règles de TestFlight, et les transmet à l'éditeur. Parcelle n'ajoute rien à ces envois.</p>
+  </section>
+  <section>
+    <h2>Vos droits</h2>
+    <p>Nous ne détenons aucune donnée vous concernant : il n'y a rien à consulter, rectifier ou effacer chez nous. Tout ce que Parcelle garde est dans votre iPhone, et supprimer l'app efface tout. Pour les services interrogés, adressez-vous à chacun d'eux. Vous pouvez aussi saisir la CNIL (<a href="https://www.cnil.fr">cnil.fr</a>).</p>
+  </section>
+  <section>
+    <h2>Modifications</h2>
+    <p>Si cette politique change, la nouvelle version paraîtra sur cette page, avec sa date.</p>
+  </section>
+  <section>
+    <h2>Contact</h2>
+    <p>Une question sur cette politique ou sur Parcelle : [adresse e-mail à fournir par Pierre].</p>
+  </section>
+</main>
+<footer>
+  <p>Parcelle · éditée par Pierre Ourdouille · 29 septembre 2026</p>
+</footer>
+</body>
+</html>
