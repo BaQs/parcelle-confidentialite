@@ -79,4 +79,4 @@ Si cette politique change, la nouvelle version paraîtra sur cette page, avec sa
 
 ## Contact
 
-Une question sur cette politique ou sur Parcelle : [adresse e-mail à fournir par Pierre].
+Une question sur cette politique ou sur Parcelle : [tordre.tradition1q@icloud.com](mailto:tordre.tradition1q@icloud.com).
