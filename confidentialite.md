@@ -1,8 +1,8 @@
 # Politique de confidentialité — Parcelle
 
-*Dernière mise à jour : 29 septembre 2026*
+*Dernière mise à jour : 8 octobre 2026*
 
-**Parcelle ne collecte aucune donnée personnelle.** Pas de compte, pas de serveur, pas de publicité, pas de mesure d'audience. Ce que vous saisissez sert seulement à interroger les services, publics pour la plupart, qui détiennent les réponses ; ce que vous gardez reste dans votre iPhone.
+**Parcelle ne collecte aucune donnée personnelle.** Pas de compte, pas de serveur, pas de publicité, pas de mesure d'audience. Ce que vous saisissez sert seulement à interroger les services, publics pour la plupart, qui détiennent les réponses ; ce que vous gardez reste dans votre iPhone. L'abonnement Parcelle Pro passe par Apple : nous ne recevons rien qui vous identifie.
 
 ## Qui édite Parcelle
 
@@ -21,8 +21,6 @@ Pour construire la fiche d'un lieu, Parcelle envoie son adresse ou ses coordonn�
 
 Comme pour toute connexion à Internet, chaque service voit l'adresse IP de votre connexion ; chacun applique sa propre politique de confidentialité.
 
-Certains fichiers publics sont téléchargés en entier, sans que rien du lieu étudié ne soit envoyé : c'est le cas de la liste de tif.hair.
-
 ## Votre position
 
 Parcelle n'utilise votre position que si vous l'autorisez, et seulement quand vous le demandez : pour retrouver l'adresse où vous vous trouvez. Elle ne la suit jamais en arrière-plan. Vos coordonnées ne servent qu'à interroger les services qui répondent ; Parcelle ne les enregistre pas.
@@ -37,9 +35,21 @@ Les éléments utiles à la recherche du bien sont ensuite envoyés, comme pour 
 
 Les lieux que vous suivez, vos notes, vos saisies et vos réglages sont enregistrés dans l'iPhone, et nulle part ailleurs. Les lieux suivis peuvent apparaître dans la recherche de l'iPhone ; cet index reste lui aussi sur l'appareil.
 
+Seule la fiche à essayer est gardée à part, dans le trousseau de l'iPhone : voir « Parcelle Pro, les achats dans l'app ».
+
 ## La veille et les notifications
 
 Pour les lieux que vous avez choisi de suivre, Parcelle vérifie de temps en temps, y compris en arrière-plan, s'il y a du nouveau autour, en interrogeant les mêmes services avec l'adresse de ces lieux. Les notifications sont produites dans l'iPhone, sans serveur de notification. Vous pouvez les couper dans les réglages de l'iPhone, ou cesser de suivre un lieu.
+
+## Parcelle Pro, les achats dans l'app
+
+Parcelle est gratuite. Parcelle Pro est un abonnement, mensuel ou annuel, avec un essai gratuit de sept jours. Il est vendu par Apple, dans l'app, par l'App Store : l'achat, le paiement, la facture, le renouvellement, la résiliation et les remboursements passent par Apple, selon ses conditions et sa politique de confidentialité.
+
+Nous ne recevons ni votre nom, ni votre adresse e-mail, ni votre identifiant Apple, ni votre carte, ni votre adresse de facturation. Pour savoir si Parcelle Pro est actif, l'app le demande au système de l'iPhone, qui le tient d'Apple ; aucun serveur Parcelle n'intervient.
+
+Apple nous fournit, dans App Store Connect, des rapports de ventes et d'abonnements anonymes : combien d'essais, d'abonnements et de résiliations, dans quels pays. Ils ne permettent pas de savoir qui vous êtes. L'app elle-même ne mesure rien : ni les écrans ouverts, ni les boutons touchés, ni les achats.
+
+**La fiche à essayer.** L'adresse que vous choisissez de voir en entier, offerte, est mémorisée dans le trousseau de l'iPhone : son identifiant dans la Base Adresse Nationale, l'adresse et la date du choix. Elle ne quitte pas l'iPhone. Elle reste en mémoire même si vous supprimez puis réinstallez l'app, pour que la fiche demeure offerte ; elle disparaît si l'iPhone est effacé.
 
 ## Les services interrogés
 
@@ -59,7 +69,6 @@ Les principaux, et ce qu'ils fournissent à la fiche :
 - **Panoramax** : les photos de rue
 - **OpenStreetMap** : les commerces et services du quartier
 - **Apple Plans** : la vue de la rue Look Around
-- **tif.hair** : la liste des salons de coiffure à jeu de mots, téléchargée en entier
 
 Et aussi : le Référentiel national des bâtiments, la Base de données nationale des bâtiments, le découpage administratif, l'annuaire des entreprises, les données ouvertes d'Enedis et de GRDF, France Chaleur Urbaine, Vigicrues et Géo-IDE.
 
@@ -69,9 +78,11 @@ Certains liens ouvrent un site dans votre navigateur, une annonce ou une fiche o
 
 Si vous testez Parcelle avec TestFlight, Apple recueille les rapports de plantage et les retours que vous choisissez d'envoyer (texte, capture d'écran), selon sa propre politique de confidentialité et les règles de TestFlight, et les transmet à l'éditeur. Parcelle n'ajoute rien à ces envois.
 
+Dans une version de test, les achats de Parcelle Pro sont simulés par Apple : rien n'est débité.
+
 ## Vos droits
 
-Nous ne détenons aucune donnée vous concernant : il n'y a rien à consulter, rectifier ou effacer chez nous. Tout ce que Parcelle garde est dans votre iPhone, et supprimer l'app efface tout. Pour les services interrogés, adressez-vous à chacun d'eux. Vous pouvez aussi saisir la CNIL ([cnil.fr](https://www.cnil.fr)).
+Nous ne détenons aucune donnée vous concernant : il n'y a rien à consulter, rectifier ou effacer chez nous. Tout ce que Parcelle garde est dans votre iPhone, et supprimer l'app efface tout, sauf la fiche à essayer, gardée dans le trousseau. Votre abonnement, sa résiliation et ses remboursements se gèrent chez Apple : dans les Réglages de l'iPhone, rubrique Abonnements, ou sur [reportaproblem.apple.com](https://reportaproblem.apple.com). Pour les services interrogés, adressez-vous à chacun d'eux. Vous pouvez aussi saisir la CNIL ([cnil.fr](https://www.cnil.fr)).
 
 ## Modifications
 
