@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assistance — Parcelle</title>
+<meta name="description" content="Une question sur Parcelle, une adresse qui ne donne rien, votre abonnement Parcelle Pro : comment nous écrire.">
+<style>
+:root {
+  --page:#F4F6F2; --surface:#FFFFFF; --texte:#17201B; --texte2:#57655C; --filet:#E2E8E1;
+  --accent:#8F753D; --tete:#243532; --tete-texte:#FFFFFF; --creme:#E8DCC0; --creme2:rgba(232,220,192,.74);
+  --lien:#6F5A2E;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --page:#15201A; --surface:#1E2A23; --texte:#F1F4F0; --texte2:#A0AFA5; --filet:#2A362F;
+    --accent:#D0B785; --tete:#0E1613; --tete-texte:#F1F4F0; --creme:#D0B785; --creme2:rgba(208,183,133,.75);
+    --lien:#D0B785;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --page:#15201A; --surface:#1E2A23; --texte:#F1F4F0; --texte2:#A0AFA5; --filet:#2A362F;
+  --accent:#D0B785; --tete:#0E1613; --tete-texte:#F1F4F0; --creme:#D0B785; --creme2:rgba(208,183,133,.75);
+  --lien:#D0B785;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--texte);
+  font: 400 1.0625rem/1.6 -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; }
+.tete { background: var(--tete); color: var(--tete-texte);
+  padding-block: clamp(2rem, 7vw, 3.25rem) clamp(1.5rem, 5vw, 2.25rem); padding-inline: 1.25rem; }
+.tete > * { max-width: 40rem; margin-inline: auto; }
+.marque { margin-block: 0 .5rem; font-size: .75rem; font-weight: 700; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--creme2); }
+h1 { margin-block: 0; font-size: clamp(1.75rem, 6vw, 2.4rem); line-height: 1.1; font-weight: 800;
+  letter-spacing: -.03em; text-wrap: balance; }
+.date { margin-block: .75rem 0; color: var(--creme); font-size: .9375rem; }
+main { max-width: 40rem; margin-inline: auto; padding-inline: 1.25rem; padding-block: 1.5rem 2.5rem;
+  display: flex; flex-direction: column; gap: 1.75rem; }
+.bref { margin: 0; background: var(--surface); border: 1px solid var(--filet); border-radius: 14px;
+  padding: 1rem 1.15rem; font-size: 1.0625rem; }
+section { display: flex; flex-direction: column; gap: .6rem; }
+h2 { margin: 0; font-size: 1.125rem; line-height: 1.3; font-weight: 700; letter-spacing: -.01em;
+  text-wrap: balance; }
+p { margin: 0; }
+ul { margin: 0; padding-left: 1.2rem; display: flex; flex-direction: column; gap: .35rem; }
+li::marker { color: var(--accent); }
+a { color: var(--lien); text-underline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+.services { margin: .25rem 0; border-top: 1px solid var(--filet); }
+.services div { display: grid; grid-template-columns: minmax(0, 15rem) minmax(0, 1fr); gap: .15rem 1rem;
+  padding-block: .55rem; border-bottom: 1px solid var(--filet); }
+.services dt { font-weight: 600; }
+.services dd { margin: 0; color: var(--texte2); }
+@media (max-width: 34rem) { .services div { grid-template-columns: minmax(0, 1fr); } }
+footer { max-width: 40rem; margin-inline: auto; padding-inline: 1.25rem; padding-block: 0 2.5rem;
+  color: var(--texte2); font-size: .875rem; }
+footer p { border-top: 1px solid var(--filet); padding-top: 1rem; }
+</style>
+</head>
+<body>
+<header class="tete">
+  <p class="marque">Parcelle</p>
+  <h1>Assistance</h1>
+  <p class="date">L'assistant de préparation de visite immobilière</p>
+</header>
+<main>
+  <p class="bref">Parcelle est l'assistant de préparation de visite immobilière : une adresse, ou une annonce partagée, et en une minute les données publiques utiles pour comprendre le bien au-delà de l'annonce.</p>
+  <section>
+    <h2>Nous écrire</h2>
+    <p>Une question, une adresse qui ne donne rien, une donnée qui vous semble fausse ? Écrivez-nous à <a href="mailto:tordre.tradition1q@icloud.com">tordre.tradition1q@icloud.com</a>, en précisant l'adresse recherchée. Nous répondons sous quelques jours.</p>
+  </section>
+  <section>
+    <h2>Ce que couvre Parcelle</h2>
+    <p>Parcelle couvre la France. La toiture est mesurée là où l'IGN a publié ses relevés laser ; ailleurs, elle est estimée, et l'app l'indique.</p>
+  </section>
+  <section>
+    <h2>Votre abonnement Parcelle Pro</h2>
+    <ul><li>Il se gère dans les Réglages de l'iPhone, rubrique Abonnements : changer de formule, résilier.</li><li>Après une réinstallation, ou sur un nouvel iPhone, touchez « Restaurer un achat » en bas de l'écran Parcelle Pro.</li><li>L'achat, la facture et les remboursements passent par Apple : <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</li></ul>
+  </section>
+  <section>
+    <h2>Confidentialité</h2>
+    <p>Parcelle ne collecte aucune donnée personnelle : voir la <a href="../">politique de confidentialité</a>.</p>
+  </section>
+</main>
+<footer>
+  <p>Parcelle · éditée par Pierre Ourdouille</p>
+</footer>
+</body>
+</html>
