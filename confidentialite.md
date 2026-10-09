@@ -1,6 +1,6 @@
 # Politique de confidentialité — Parcelle
 
-*Dernière mise à jour : 8 octobre 2026*
+*Dernière mise à jour : 9 octobre 2026*
 
 **Parcelle ne collecte aucune donnée personnelle.** Pas de compte, pas de serveur, pas de publicité, pas de mesure d'audience. Ce que vous saisissez sert seulement à interroger les services, publics pour la plupart, qui détiennent les réponses ; ce que vous gardez reste dans votre iPhone. L'abonnement Parcelle Pro passe par Apple : nous ne recevons rien qui vous identifie.
 
@@ -35,7 +35,7 @@ Les éléments utiles à la recherche du bien sont ensuite envoyés, comme pour 
 
 Les lieux que vous suivez, vos notes, vos saisies et vos réglages sont enregistrés dans l'iPhone, et nulle part ailleurs. Les lieux suivis peuvent apparaître dans la recherche de l'iPhone ; cet index reste lui aussi sur l'appareil.
 
-Seule la fiche à essayer est gardée à part, dans le trousseau de l'iPhone : voir « Parcelle Pro, les achats dans l'app ».
+Seules les fiches à essayer sont gardées à part, dans le trousseau de l'iPhone : voir « Parcelle Pro, les achats dans l'app ».
 
 ## La veille et les notifications
 
@@ -49,7 +49,7 @@ Nous ne recevons ni votre nom, ni votre adresse e-mail, ni votre identifiant App
 
 Apple nous fournit, dans App Store Connect, des rapports de ventes et d'abonnements anonymes : combien d'essais, d'abonnements et de résiliations, dans quels pays. Ils ne permettent pas de savoir qui vous êtes. L'app elle-même ne mesure rien : ni les écrans ouverts, ni les boutons touchés, ni les achats.
 
-**La fiche à essayer.** L'adresse que vous choisissez de voir en entier, offerte, est mémorisée dans le trousseau de l'iPhone : son identifiant dans la Base Adresse Nationale, l'adresse et la date du choix. Elle ne quitte pas l'iPhone. Elle reste en mémoire même si vous supprimez puis réinstallez l'app, pour que la fiche demeure offerte ; elle disparaît si l'iPhone est effacé.
+**Les fiches à essayer.** Les adresses que vous choisissez de voir en entier, offertes, trois au plus, sont mémorisées dans le trousseau de l'iPhone : pour chacune, son identifiant dans la Base Adresse Nationale, l'adresse et la date du choix. Elles ne quittent pas l'iPhone. Elles restent en mémoire même si vous supprimez puis réinstallez l'app, pour que ces fiches demeurent offertes ; elles disparaissent si l'iPhone est effacé.
 
 ## Les services interrogés
 
@@ -82,7 +82,7 @@ Dans une version de test, les achats de Parcelle Pro sont simulés par Apple : r
 
 ## Vos droits
 
-Nous ne détenons aucune donnée vous concernant : il n'y a rien à consulter, rectifier ou effacer chez nous. Tout ce que Parcelle garde est dans votre iPhone, et supprimer l'app efface tout, sauf la fiche à essayer, gardée dans le trousseau. Votre abonnement, sa résiliation et ses remboursements se gèrent chez Apple : dans les Réglages de l'iPhone, rubrique Abonnements, ou sur [reportaproblem.apple.com](https://reportaproblem.apple.com). Pour les services interrogés, adressez-vous à chacun d'eux. Vous pouvez aussi saisir la CNIL ([cnil.fr](https://www.cnil.fr)).
+Nous ne détenons aucune donnée vous concernant : il n'y a rien à consulter, rectifier ou effacer chez nous. Tout ce que Parcelle garde est dans votre iPhone, et supprimer l'app efface tout, sauf les fiches à essayer, gardées dans le trousseau. Votre abonnement, sa résiliation et ses remboursements se gèrent chez Apple : dans les Réglages de l'iPhone, rubrique Abonnements, ou sur [reportaproblem.apple.com](https://reportaproblem.apple.com). Pour les services interrogés, adressez-vous à chacun d'eux. Vous pouvez aussi saisir la CNIL ([cnil.fr](https://www.cnil.fr)).
 
 ## Modifications
 
