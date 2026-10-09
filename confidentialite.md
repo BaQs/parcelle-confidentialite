@@ -1,6 +1,6 @@
 # Politique de confidentialité — Parcelle
 
-*Dernière mise à jour : 9 octobre 2026*
+*Dernière mise à jour : 10 octobre 2026*
 
 **Parcelle ne collecte aucune donnée personnelle.** Pas de compte, pas de serveur, pas de publicité, pas de mesure d'audience. Ce que vous saisissez sert seulement à interroger les services, publics pour la plupart, qui détiennent les réponses ; ce que vous gardez reste dans votre iPhone. L'abonnement Parcelle Pro passe par Apple : nous ne recevons rien qui vous identifie.
 
@@ -49,7 +49,7 @@ Nous ne recevons ni votre nom, ni votre adresse e-mail, ni votre identifiant App
 
 Apple nous fournit, dans App Store Connect, des rapports de ventes et d'abonnements anonymes : combien d'essais, d'abonnements et de résiliations, dans quels pays. Ils ne permettent pas de savoir qui vous êtes. L'app elle-même ne mesure rien : ni les écrans ouverts, ni les boutons touchés, ni les achats.
 
-**Les fiches à essayer.** Les adresses que vous choisissez de voir en entier, offertes, trois au plus, sont mémorisées dans le trousseau de l'iPhone : pour chacune, son identifiant dans la Base Adresse Nationale, l'adresse et la date du choix. Elles ne quittent pas l'iPhone. Elles restent en mémoire même si vous supprimez puis réinstallez l'app, pour que ces fiches demeurent offertes ; elles disparaissent si l'iPhone est effacé.
+**Les fiches à essayer.** Les trois premières adresses que vous ouvrez s'affichent en entier, offertes ; l'app les mémorise d'elle-même dans le trousseau de l'iPhone, dès leur ouverture : pour chacune, son identifiant dans la Base Adresse Nationale, l'adresse et la date d'ouverture. Elles ne quittent pas l'iPhone. Elles restent en mémoire même si vous supprimez puis réinstallez l'app, pour que ces fiches demeurent offertes ; elles disparaissent si l'iPhone est effacé.
 
 ## Les services interrogés
 
